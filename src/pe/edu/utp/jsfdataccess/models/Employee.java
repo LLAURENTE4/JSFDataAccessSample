@@ -6,7 +6,7 @@ import javax.faces.bean.SessionScoped;
 /**
  * Created by GrupoUTP on 09/07/2016.
  */
-@ManagedBean (name = "Employee")//** , eager = true)**//
+@ManagedBean (name = "employee")//** , eager = true)**//
 @SessionScoped
 public class Employee {
     private String firstName;
